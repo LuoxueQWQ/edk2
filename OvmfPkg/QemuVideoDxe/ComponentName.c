@@ -28,12 +28,12 @@ GLOBAL_REMOVE_IF_UNREFERENCED EFI_COMPONENT_NAME2_PROTOCOL  gQemuVideoComponentN
 };
 
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_UNICODE_STRING_TABLE  mQemuVideoDriverNameTable[] = {
-  { "eng;en", L"QEMU Video Driver" },
+  { "eng;en", L"Video Driver" },
   { NULL,     NULL                 }
 };
 
 GLOBAL_REMOVE_IF_UNREFERENCED EFI_UNICODE_STRING_TABLE  mQemuVideoControllerNameTable[] = {
-  { "eng;en", L"QEMU Video PCI Adapter" },
+  { "eng;en", L"Video PCI Adapter" },
   { NULL,     NULL                      }
 };
 
